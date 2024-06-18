@@ -155,9 +155,9 @@ nav {
 nav .nav-item {
   font-family: var(--nav-item-font-family);
   margin: var(--nav-item-margin);
-  font-family: var(--nav-item-font-family);
-  font-weight: var(--nav-item-font-weight);
-  font-size: var(--nav-item-font-size);
+  font-family: var(--nav-item-font-family-title);
+  font-weight: var(--nav-item-font-weight-bold);
+  font-size: var(--nav-item-font-size-medium);
   letter-spacing: var(--nav-item-letter-spacing);
   display: var(--nav-item-display);
   margin-bottom: var(--nav-item-margin-bottom);
@@ -174,12 +174,13 @@ nav .nav-link {
     padding-bottom: calc(0.5 * 1rem);
     padding-left: calc(1 * 1rem);
     padding-right: calc(1 * 1rem);
+    color: var(--nav-item-link-hover);
     
 }
 
 /* Hover effect for the nav-link class in nav class */
 nav .nav-link:hover {
-    color: var(--nav-item-link-hover);
+    color: var(--color-primary);
 }
 
 main {
