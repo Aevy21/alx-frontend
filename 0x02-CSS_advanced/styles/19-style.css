@@ -147,6 +147,12 @@ a:active {
   color: var(--text-color);
 }
 
+.footer ul {
+    text-align: right;
+}
+
+
+
 
 .navbar-menu {
   float: right;
