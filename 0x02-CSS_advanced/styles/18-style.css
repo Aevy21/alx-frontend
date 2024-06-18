@@ -28,14 +28,17 @@
   --section-footer-padding: 3rem 0 0;
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
-  --nav-item-font-family: var(--font-family-title);
-  --nav-item-font-weight: var(--font-weight-bold);
-  --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: calc(0.04 * 1rem); /* Assuming root element's font-size is 1rem */
+  --nav-item-font-family: font-family-title;
+  --nav-item-font-weight: font-weight-bold;
+  --nav-item-font-size: font-size-medium;
+  --nav-item-letter-spacing: 4%;
   --nav-item-display: inline-block;
-  --nav-item-margin: 0 0 3rem 0;
-  --nav-item-link-hover: var(--color-primary);
-
+  --nav-item-link-hover: color-primary;
+  --nav-item-letter-spacing: 4%;
+  --nav-item-display: inline-block;
+  --nav-item-margin-bottom: calc(3 * 1rem);
+  --nav-item-margin-other: 0;
+  --nav-item-link-hover: color-primary;
 }
 
 *, *::before, *::after {
@@ -45,14 +48,14 @@
 
 html {
 	line-height: 1.15;
-	-webkit-text-size-adjust: 100%
-	scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%
+  scroll-behavior: smooth;
   font-size: 62.5%;
 }
 
 body {
-	 margin: 0;
-	 color: var(--text-color);
+margin: 0;
+color: var(--text-color);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
