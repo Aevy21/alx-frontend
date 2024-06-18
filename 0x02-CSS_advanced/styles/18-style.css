@@ -1,3 +1,4 @@
+
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -27,13 +28,13 @@
   --section-footer-padding: 3rem 0 0;
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
-  --nav-item-font-family: 'font-family-title';
-  --nav-item-font-weight: 'font-weight-bold';
-  --nav-item-font-size: 'font-size-medium';
+  --nav-item-font-family: font-family-title;
+  --nav-item-font-weight: font-weight-bold;
+  --nav-item-font-size: font-size-medium;
   --nav-item-letter-spacing: 4%;
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 calc(var(--root-element) * 3) 0;
-  --nav-item-link-hover: 'color-primary';
+  --nav-item-link-hover: color-primary;
 
 }
 
@@ -142,14 +143,14 @@ a:active {
   float: right;
 }
 
-nav {
+.nav {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
 
-nav .nav-item {
+.nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -158,17 +159,15 @@ nav .nav-item {
   margin: var(--nav-item-margin);
 }
 
-nav .nav-link {
+.nav-link {
   display: block;
-  padding: calc(var(--root-element) / 2) var(--root-element);
+  padding-top: calc(0.5 * 1rem);
+  padding-bottom: calc(0.5 * 1rem);
+  padding-left: calc(1 * 1rem);
+  padding-right: calc(1 * 1rem);
 }
 
-nav .nav-link {
-  display: block;
-  padding: calc(var(--root-element) / 2) var(--root-element);
-}
-
-nav .nav-link:hover {
+.nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 
