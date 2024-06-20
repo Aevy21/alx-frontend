@@ -48,11 +48,8 @@ a {
   color: var(--text-color);
   text-decoration: none;
 }
-a:link{
-  
-}
 
-a[href] {
+a:link {
   text-decoration: none;
 }
 
