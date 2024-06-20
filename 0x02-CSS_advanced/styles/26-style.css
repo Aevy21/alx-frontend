@@ -292,10 +292,13 @@ ul.row {
 
 .card-testimonial .card-quote cite {
     display: block; /* Style as a block level element */
-    padding-top: 1rem; /* Pad the top with 1x the root element (assuming the root element's font-size is 1rem) */
+    padding-top: 1rem;
     color: var(--color-primary); /* Set the foreground color to the value of the color-primary variable */
 }
 
+  .card-testimonial .card-quote {
+    position: relative;
+  }
 
 main {
 	display: block
