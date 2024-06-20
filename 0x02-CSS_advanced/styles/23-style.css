@@ -230,11 +230,9 @@ ul.row {
 }
 
 /* Styling the svg children of the social-link class */
-.social-link svg {
+.social-link > svg {
     fill: var(--text-color);
 }
-
-
 
 main {
 	display: block
