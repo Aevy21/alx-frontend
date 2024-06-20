@@ -197,10 +197,9 @@ ul.row {
 
 
 /* Select all classes that start with col- */
-[class^="col-"] {
+[class*='col-'] {
     float: left;
-    padding: calc(0.5 * 1rem); /* Assuming root element's font-size is 1rem */
-    padding: calc(var(--root-element) / 2);
+    padding: 0.5rem;
 }
 
 
