@@ -281,12 +281,13 @@ ul.row {
 
 .card-testimonial {
     text-align: center;
+	
 }
 
 .card-testimonial .card-avatar {
     border-radius: 50%; /* Round the radius on all sides at 50% */
-    width: calc(10 * 1rem); /* Set the width to 10x the root element */
-    height: calc(10 * 1rem); /* Set the height to 10x the root element */
+    width: 10rem; 
+    height: 10rem); 
 }
 
 .card-testimonial .card-quote cite {
