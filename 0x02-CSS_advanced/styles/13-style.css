@@ -48,6 +48,9 @@ a {
   color: var(--text-color);
   text-decoration: none;
 }
+a:link{
+  
+}
 
 a[href] {
   text-decoration: none;
